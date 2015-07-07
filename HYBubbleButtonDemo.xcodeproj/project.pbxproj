@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8A52FA01B48CFF700A70CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A52F9F1B48CFF700A70CA0 /* main.m */; };
+		D8A52FA31B48CFF700A70CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A52FA21B48CFF700A70CA0 /* AppDelegate.m */; };
+		D8A52FA61B48CFF700A70CA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A52FA51B48CFF700A70CA0 /* ViewController.m */; };
+		D8A52FA91B48CFF700A70CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A52FA71B48CFF700A70CA0 /* Main.storyboard */; };
+		D8A52FAB1B48CFF700A70CA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A52FAA1B48CFF700A70CA0 /* Images.xcassets */; };
+		D8A52FAE1B48CFF700A70CA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A52FAC1B48CFF700A70CA0 /* LaunchScreen.xib */; };
+		D8A52FBA1B48CFF700A70CA0 /* HYBubbleButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A52FB91B48CFF700A70CA0 /* HYBubbleButtonDemoTests.m */; };
+		D8A52FC61B48D0C000A70CA0 /* HYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A52FC51B48D0C000A70CA0 /* HYBubbleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8A52FB41B48CFF700A70CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A52F921B48CFF700A70CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A52F991B48CFF700A70CA0;
+			remoteInfo = HYBubbleButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8A52F9A1B48CFF700A70CA0 /* HYBubbleButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYBubbleButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A52F9E1B48CFF700A70CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A52F9F1B48CFF700A70CA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8A52FA11B48CFF700A70CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8A52FA21B48CFF700A70CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8A52FA41B48CFF700A70CA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8A52FA51B48CFF700A70CA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8A52FA81B48CFF700A70CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8A52FAA1B48CFF700A70CA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8A52FAD1B48CFF700A70CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8A52FB31B48CFF700A70CA0 /* HYBubbleButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYBubbleButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A52FB81B48CFF700A70CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A52FB91B48CFF700A70CA0 /* HYBubbleButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBubbleButtonDemoTests.m; sourceTree = "<group>"; };
+		D8A52FC41B48D0C000A70CA0 /* HYBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBubbleButton.h; sourceTree = "<group>"; };
+		D8A52FC51B48D0C000A70CA0 /* HYBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBubbleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8A52F971B48CFF700A70CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A52FB01B48CFF700A70CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8A52F911B48CFF700A70CA0 = {
+			isa = PBXGroup;
+			children = (
+				D8A52F9C1B48CFF700A70CA0 /* HYBubbleButtonDemo */,
+				D8A52FB61B48CFF700A70CA0 /* HYBubbleButtonDemoTests */,
+				D8A52F9B1B48CFF700A70CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8A52F9B1B48CFF700A70CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8A52F9A1B48CFF700A70CA0 /* HYBubbleButtonDemo.app */,
+				D8A52FB31B48CFF700A70CA0 /* HYBubbleButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8A52F9C1B48CFF700A70CA0 /* HYBubbleButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8A52FC31B48D0B900A70CA0 /* HYBubbleButton */,
+				D8A52FA11B48CFF700A70CA0 /* AppDelegate.h */,
+				D8A52FA21B48CFF700A70CA0 /* AppDelegate.m */,
+				D8A52FA41B48CFF700A70CA0 /* ViewController.h */,
+				D8A52FA51B48CFF700A70CA0 /* ViewController.m */,
+				D8A52FA71B48CFF700A70CA0 /* Main.storyboard */,
+				D8A52FAA1B48CFF700A70CA0 /* Images.xcassets */,
+				D8A52FAC1B48CFF700A70CA0 /* LaunchScreen.xib */,
+				D8A52F9D1B48CFF700A70CA0 /* Supporting Files */,
+			);
+			path = HYBubbleButtonDemo;
+			sourceTree = "<group>";
+		};
+		D8A52F9D1B48CFF700A70CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A52F9E1B48CFF700A70CA0 /* Info.plist */,
+				D8A52F9F1B48CFF700A70CA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A52FB61B48CFF700A70CA0 /* HYBubbleButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8A52FB91B48CFF700A70CA0 /* HYBubbleButtonDemoTests.m */,
+				D8A52FB71B48CFF700A70CA0 /* Supporting Files */,
+			);
+			path = HYBubbleButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		D8A52FB71B48CFF700A70CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A52FB81B48CFF700A70CA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A52FC31B48D0B900A70CA0 /* HYBubbleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D8A52FC41B48D0C000A70CA0 /* HYBubbleButton.h */,
+				D8A52FC51B48D0C000A70CA0 /* HYBubbleButton.m */,
+			);
+			path = HYBubbleButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8A52F991B48CFF700A70CA0 /* HYBubbleButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A52FBD1B48CFF700A70CA0 /* Build configuration list for PBXNativeTarget "HYBubbleButtonDemo" */;
+			buildPhases = (
+				D8A52F961B48CFF700A70CA0 /* Sources */,
+				D8A52F971B48CFF700A70CA0 /* Frameworks */,
+				D8A52F981B48CFF700A70CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYBubbleButtonDemo;
+			productName = HYBubbleButtonDemo;
+			productReference = D8A52F9A1B48CFF700A70CA0 /* HYBubbleButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8A52FB21B48CFF700A70CA0 /* HYBubbleButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A52FC01B48CFF700A70CA0 /* Build configuration list for PBXNativeTarget "HYBubbleButtonDemoTests" */;
+			buildPhases = (
+				D8A52FAF1B48CFF700A70CA0 /* Sources */,
+				D8A52FB01B48CFF700A70CA0 /* Frameworks */,
+				D8A52FB11B48CFF700A70CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8A52FB51B48CFF700A70CA0 /* PBXTargetDependency */,
+			);
+			name = HYBubbleButtonDemoTests;
+			productName = HYBubbleButtonDemoTests;
+			productReference = D8A52FB31B48CFF700A70CA0 /* HYBubbleButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8A52F921B48CFF700A70CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = nathan;
+				TargetAttributes = {
+					D8A52F991B48CFF700A70CA0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D8A52FB21B48CFF700A70CA0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D8A52F991B48CFF700A70CA0;
+					};
+				};
+			};
+			buildConfigurationList = D8A52F951B48CFF700A70CA0 /* Build configuration list for PBXProject "HYBubbleButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8A52F911B48CFF700A70CA0;
+			productRefGroup = D8A52F9B1B48CFF700A70CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8A52F991B48CFF700A70CA0 /* HYBubbleButtonDemo */,
+				D8A52FB21B48CFF700A70CA0 /* HYBubbleButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8A52F981B48CFF700A70CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A52FA91B48CFF700A70CA0 /* Main.storyboard in Resources */,
+				D8A52FAE1B48CFF700A70CA0 /* LaunchScreen.xib in Resources */,
+				D8A52FAB1B48CFF700A70CA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A52FB11B48CFF700A70CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8A52F961B48CFF700A70CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A52FC61B48D0C000A70CA0 /* HYBubbleButton.m in Sources */,
+				D8A52FA61B48CFF700A70CA0 /* ViewController.m in Sources */,
+				D8A52FA31B48CFF700A70CA0 /* AppDelegate.m in Sources */,
+				D8A52FA01B48CFF700A70CA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A52FAF1B48CFF700A70CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A52FBA1B48CFF700A70CA0 /* HYBubbleButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8A52FB51B48CFF700A70CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A52F991B48CFF700A70CA0 /* HYBubbleButtonDemo */;
+			targetProxy = D8A52FB41B48CFF700A70CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8A52FA71B48CFF700A70CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A52FA81B48CFF700A70CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8A52FAC1B48CFF700A70CA0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A52FAD1B48CFF700A70CA0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8A52FBB1B48CFF700A70CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8A52FBC1B48CFF700A70CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8A52FBE1B48CFF700A70CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYBubbleButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8A52FBF1B48CFF700A70CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYBubbleButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8A52FC11B48CFF700A70CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYBubbleButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBubbleButtonDemo.app/HYBubbleButtonDemo";
+			};
+			name = Debug;
+		};
+		D8A52FC21B48CFF700A70CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYBubbleButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBubbleButtonDemo.app/HYBubbleButtonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8A52F951B48CFF700A70CA0 /* Build configuration list for PBXProject "HYBubbleButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A52FBB1B48CFF700A70CA0 /* Debug */,
+				D8A52FBC1B48CFF700A70CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A52FBD1B48CFF700A70CA0 /* Build configuration list for PBXNativeTarget "HYBubbleButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A52FBE1B48CFF700A70CA0 /* Debug */,
+				D8A52FBF1B48CFF700A70CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8A52FC01B48CFF700A70CA0 /* Build configuration list for PBXNativeTarget "HYBubbleButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A52FC11B48CFF700A70CA0 /* Debug */,
+				D8A52FC21B48CFF700A70CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8A52F921B48CFF700A70CA0 /* Project object */;
+}
